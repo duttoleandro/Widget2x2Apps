@@ -1,0 +1,3 @@
+Proyecto preparado para Android Studio / Gradle.
+Para obtener la APK: abrir el proyecto en Android Studio y usar Build > Build APK(s).
+También incluye un workflow de GitHub Actions para compilación en la nube.

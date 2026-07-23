@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent" android:padding="6dp">
+    <View android:id="@+id/widget_background" android:layout_width="match_parent"
+        android:layout_height="match_parent" android:background="@drawable/widget_background"/>
+    <GridLayout android:layout_width="match_parent" android:layout_height="match_parent"
+        android:columnCount="2" android:rowCount="2" android:padding="10dp">
+        <ImageView android:id="@+id/icon_0" android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="5dp"
+            android:scaleType="fitCenter" android:contentDescription="@string/app_icon"/>
+        <ImageView android:id="@+id/icon_1" android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="5dp"
+            android:scaleType="fitCenter" android:contentDescription="@string/app_icon"/>
+        <ImageView android:id="@+id/icon_2" android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="5dp"
+            android:scaleType="fitCenter" android:contentDescription="@string/app_icon"/>
+        <ImageView android:id="@+id/icon_3" android:layout_width="0dp" android:layout_height="0dp"
+            android:layout_columnWeight="1" android:layout_rowWeight="1" android:layout_margin="5dp"
+            android:scaleType="fitCenter" android:contentDescription="@string/app_icon"/>
+    </GridLayout>
+</FrameLayout>

@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Widget 2x2 Apps</string>
+    <string name="config_title">Configurar Widget 2x2</string>
+    <string name="save">Guardar widget</string>
+    <string name="app_icon">Icono de aplicación</string>
+</resources>
