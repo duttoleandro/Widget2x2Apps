@@ -33,8 +33,8 @@ public class AppsWidgetProvider extends AppWidgetProvider {
         RemoteViews views = new RemoteViews(context.getPackageName(), R.layout.widget_2x2);
         SharedPreferences p = context.getSharedPreferences(PREFS, 0);
         int alpha = p.getInt(ALPHA_PREFIX + id, 210);
-        views.setInt(R.id.widget_background, "setColorFilter",
-                Color.argb(alpha, 110, 110, 110), PorterDuff.Mode.SRC_IN);
+        views.setInt(R.id.widget_background, "setBackgroundColor",
+                Color.argb(alpha, 110, 110, 110));
 
         int[] iconIds = {R.id.icon_0,R.id.icon_1,R.id.icon_2,R.id.icon_3};
         for (int i=0;i<4;i++) {
